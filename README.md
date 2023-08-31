@@ -1,3 +1,3 @@
 # csg-sample-repo
 
-This comment should be removed 
+Resolving merge conflicts through git 
