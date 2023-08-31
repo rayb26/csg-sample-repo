@@ -18,6 +18,9 @@ export class Rectangle extends Shape {
         if (this.color !== undefined) {
             console.log(this.color)
         }
+        else {
+            console.log("The color is undefined")
+        }
     }
 
     toString(): string {

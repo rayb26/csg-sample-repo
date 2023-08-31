@@ -1,0 +1,14 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var circle_1 = require("./circle");
+var rectangle_1 = require("./rectangle");
+var utils_1 = require("./utils");
+var rectangle = new rectangle_1.Rectangle("bob", 10, 3);
+console.log(rectangle.calculatePerimeter());
+console.log((0, utils_1.calculateArea)(rectangle.length, rectangle.width));
+var shapes = [];
+shapes.push(new rectangle_1.Rectangle("john", 10, 3, "red"));
+shapes.push(new rectangle_1.Rectangle("joe", 5, 3, "green"));
+shapes.push(new rectangle_1.Rectangle("ray", 1, 3, "purple"));
+shapes.push(new circle_1.Circle(100, "violet"));
+console.log("the largest shape from this array is: " + (0, utils_1.findLargestShape)(shapes));

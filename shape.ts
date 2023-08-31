@@ -6,6 +6,6 @@ export abstract class Shape {
     abstract displayColor(): void; 
     
     toString(): string {
-        return "This is a general rectangle"
+        return "This is a general shape"
     }
 }
