@@ -1,3 +1,4 @@
+import { Circle } from "./circle";
 import { Rectangle } from "./rectangle";
 import { Shape } from "./shape";
 import { calculateArea, findLargestShape } from "./utils";
@@ -20,3 +21,4 @@ shapes.push(new Rectangle("ray", 1, 3, "purple"))
 shapes.push(new Rectangle("nick", 5, 5, "blue"))
 
 console.log("the largest shape from this array is: " + findLargestShape(shapes))
+
